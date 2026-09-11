@@ -1,0 +1,8 @@
+NAMES                    IMAGE                              STATUS         PORTS
+asset-transfer-server    asset-transfer-server:1.0          Up 6 minutes   9999/tcp
+fabric-cli               hyperledger/fabric-tools:2.5.9     Up 7 minutes   
+peer1.org1.example.com   hyperledger/fabric-peer:2.5.9      Up 7 minutes   0.0.0.0:8051->8051/tcp, [::]:8051->8051/tcp, 0.0.0.0:9445->9445/tcp, [::]:9445->9445/tcp
+peer0.org1.example.com   hyperledger/fabric-peer:2.5.9      Up 7 minutes   0.0.0.0:7051->7051/tcp, [::]:7051->7051/tcp, 0.0.0.0:9444->9444/tcp, [::]:9444->9444/tcp
+couchdb1                 couchdb:3.3.3                      Up 7 minutes   0.0.0.0:6984->5984/tcp, [::]:6984->5984/tcp
+couchdb0                 couchdb:3.3.3                      Up 7 minutes   0.0.0.0:5984->5984/tcp, [::]:5984->5984/tcp
+orderer.example.com      hyperledger/fabric-orderer:2.5.9   Up 7 minutes   0.0.0.0:7050->7050/tcp, [::]:7050->7050/tcp, 0.0.0.0:9443->9443/tcp, [::]:9443->9443/tcp

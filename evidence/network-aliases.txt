@@ -1,0 +1,8 @@
+        "Name": "fabric_devops",
+                "Name": "couchdb1",
+                "Name": "fabric-cli",
+                "Name": "couchdb0",
+                "Name": "orderer.example.com",
+                "Name": "asset-transfer-server",
+                "Name": "peer1.org1.example.com",
+                "Name": "peer0.org1.example.com",

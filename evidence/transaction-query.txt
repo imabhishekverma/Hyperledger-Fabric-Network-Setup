@@ -1,0 +1,2 @@
+time="2026-09-10T12:40:31+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+{"ID":"asset1","color":"green","size":7,"owner":"Alice","appraisedValue":450}

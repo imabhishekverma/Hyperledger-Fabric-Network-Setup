@@ -1,0 +1,25 @@
+time="2026-09-10T12:36:37+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                     IMAGE                              COMMAND                  SERVICE                  CREATED              STATUS              PORTS
+couchdb0                 couchdb:3.3.3                      "tini -- /docker-ent…"   couchdb0                 About a minute ago   Up About a minute   0.0.0.0:5984->5984/tcp, [::]:5984->5984/tcp
+couchdb1                 couchdb:3.3.3                      "tini -- /docker-ent…"   couchdb1                 About a minute ago   Up About a minute   0.0.0.0:6984->5984/tcp, [::]:6984->5984/tcp
+fabric-cli               hyperledger/fabric-tools:2.5.9     "sleep infinity"         cli                      About a minute ago   Up About a minute   
+orderer.example.com      hyperledger/fabric-orderer:2.5.9   "orderer"                orderer.example.com      About a minute ago   Up About a minute   0.0.0.0:7050->7050/tcp, [::]:7050->7050/tcp, 0.0.0.0:9443->9443/tcp, [::]:9443->9443/tcp
+peer0.org1.example.com   hyperledger/fabric-peer:2.5.9      "peer node start"        peer0.org1.example.com   About a minute ago   Up About a minute   0.0.0.0:7051->7051/tcp, [::]:7051->7051/tcp, 0.0.0.0:9444->9444/tcp, [::]:9444->9444/tcp
+peer1.org1.example.com   hyperledger/fabric-peer:2.5.9      "peer node start"        peer1.org1.example.com   About a minute ago   Up About a minute   0.0.0.0:8051->8051/tcp, [::]:8051->8051/tcp, 0.0.0.0:9445->9445/tcp, [::]:9445->9445/tcp
+time="2026-09-10T12:36:37+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Installed chaincodes on peer:
+Package ID: asset-transfer_1.0:8c24b8c4e8ad8956240f3de4e2247f277393366cdc61454d16d868a12813a92b, Label: asset-transfer_1.0
+time="2026-09-10T12:36:38+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+2026-09-10 07:06:40.442 UTC 0001 INFO [chaincodeCmd] ClientWait -> txid [677c420cac57523ae7548f1db3f27ce171811443c650475082fa71844aba6eb0] committed with status (VALID) at peer0.org1.example.com:7051
+time="2026-09-10T12:36:40+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+{
+	"approvals": {
+		"Org1MSP": true
+	}
+}
+time="2026-09-10T12:36:41+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+2026-09-10 07:06:43.526 UTC 0001 INFO [chaincodeCmd] ClientWait -> txid [d35f833e93acaada7f79a3ca7bfcec4a4cde5120ff4c3305f727bcdca0afefd5] committed with status (VALID) at peer1.org1.example.com:8051
+2026-09-10 07:06:43.528 UTC 0002 INFO [chaincodeCmd] ClientWait -> txid [d35f833e93acaada7f79a3ca7bfcec4a4cde5120ff4c3305f727bcdca0afefd5] committed with status (VALID) at peer0.org1.example.com:7051
+time="2026-09-10T12:36:43+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+Committed chaincode definition for chaincode 'asset-transfer' on channel 'mychannel':
+Version: 1.0, Sequence: 1, Endorsement Plugin: escc, Validation Plugin: vscc, Approvals: [Org1MSP: true]

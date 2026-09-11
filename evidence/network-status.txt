@@ -1,0 +1,8 @@
+time="2026-09-10T12:40:25+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                     IMAGE                              COMMAND                  SERVICE                  CREATED         STATUS         PORTS
+couchdb0                 couchdb:3.3.3                      "tini -- /docker-ent…"   couchdb0                 4 minutes ago   Up 4 minutes   0.0.0.0:5984->5984/tcp, [::]:5984->5984/tcp
+couchdb1                 couchdb:3.3.3                      "tini -- /docker-ent…"   couchdb1                 4 minutes ago   Up 4 minutes   0.0.0.0:6984->5984/tcp, [::]:6984->5984/tcp
+fabric-cli               hyperledger/fabric-tools:2.5.9     "sleep infinity"         cli                      4 minutes ago   Up 4 minutes   
+orderer.example.com      hyperledger/fabric-orderer:2.5.9   "orderer"                orderer.example.com      4 minutes ago   Up 4 minutes   0.0.0.0:7050->7050/tcp, [::]:7050->7050/tcp, 0.0.0.0:9443->9443/tcp, [::]:9443->9443/tcp
+peer0.org1.example.com   hyperledger/fabric-peer:2.5.9      "peer node start"        peer0.org1.example.com   4 minutes ago   Up 4 minutes   0.0.0.0:7051->7051/tcp, [::]:7051->7051/tcp, 0.0.0.0:9444->9444/tcp, [::]:9444->9444/tcp
+peer1.org1.example.com   hyperledger/fabric-peer:2.5.9      "peer node start"        peer1.org1.example.com   4 minutes ago   Up 4 minutes   0.0.0.0:8051->8051/tcp, [::]:8051->8051/tcp, 0.0.0.0:9445->9445/tcp, [::]:9445->9445/tcp

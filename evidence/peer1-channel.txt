@@ -1,0 +1,3 @@
+time="2026-09-10T12:40:26+05:30" level=warning msg="C:\\Users\\Abhishek Verma\\Documents\\ChatGPT\\test\\docker-compose.yaml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+2026-09-10 07:10:26.304 UTC 0001 INFO [channelCmd] InitCmdFactory -> Endorser and orderer connections initialized
+Blockchain info: {"height":4,"currentBlockHash":"LyDHa2FdSzLTjBeJbkcqKhFrXyv4PrbA45bSKc9LDOQ=","previousBlockHash":"R+M42ffRKRHDAVjLge8FRY/Wg6KYkROdjU3py/axxUQ="}
