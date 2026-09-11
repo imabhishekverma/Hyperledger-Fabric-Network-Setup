@@ -1,0 +1,8 @@
+organizations/
+channel-artifacts/
+evidence/*.log
+evidence/*.txt
+chaincode/*.tar.gz
+*.pem
+*.key
+*.crt
